@@ -1,0 +1,14 @@
+INSERT INTO sorozat (cim, megjelenes, mufaj, szereplok, leiras)
+VALUES 
+  ('Trónok Harca', '2011-04-17', 'Fantasy', 'Emilia Clarke, Kit Harington, Lena Headey', 'A Westeros kontinensen játszódó fantasy sorozat, ahol nemes családok küzdenek a Vastrónért.'),
+  ('Breaking Bad', '2008-01-20', 'Dráma', 'Bryan Cranston, Aaron Paul, Anna Gunn', 'Egy középkorú kémiai tanár rákot diagnosztizálnak, ezért az életét megváltoztatva belekeveredik a drogkereskedelembe.'),
+  ('Stranger Things', '2016-07-15', 'Sci-Fi', 'Winona Ryder, David Harbour, Finn Wolfhard', 'Egy kisvárosban eltűnik egy fiú, és közben furcsa események kezdenek történni a városban.'),
+  ('The Mandalorian', '2019-11-12', 'Sci-Fi', 'Pedro Pascal, Gina Carano, Carl Weathers', 'A Star Wars univerzumban játszódó sorozat, ahol egy bébimandót szállító fejvadász kalandjait követhetjük.'),
+  ('Black Mirror', '2011-12-04', 'Sci-Fi', 'Változó szereplőgárda', 'Az antológiához hasonlóan minden epizód egy-egy önálló történetet mesél el a technológia sötét oldaláról.'),
+  ('The Witcher', '2019-12-20', 'Fantasy', 'Henry Cavill, Anya Chalotra, Freya Allan', 'A könyvek alapján készült fantasy sorozat, melyben a szörnyvadász Geralt különböző veszélyekkel találja szembe magát.'),
+  ('Money Heist', '2017-05-02', 'Krimi', 'Újabb színészek', 'Egy titokzatos alvilági zseni vezetésével egy csoport emberek spanyol bankot rabol ki, miközben a dolgok nem mennek mindig a tervek szerint.'),
+  ('The Crown', '2016-11-04', 'Dráma', 'Olivia Colman, Tobias Menzies, Helena Bonham Carter', 'A brit királynő életének különböző szakaszait mutatja be, és bemutatja a brit monarchia kihívásait.'),
+  ('Narcos', '2015-08-28', 'Krimi', 'Wagner Moura, Boyd Holbrook, Pedro Pascal', 'A valós eseményeken alapuló sorozat, amely a kolumbiai drogkartellek és a DEA ügynökeinek küzdelmeit követi.'),
+  ('Friends', '1994-09-22', 'Vígjáték', 'Jennifer Aniston, Courteney Cox, David Schwimmer', 'Hat barát New Yorkban él és osztozik egymás életében és szerelmi élményeiben.'),
+  ('The Office', '2005-03-24', 'Vígjáték', 'Steve Carell, Rainn Wilson, John Krasinski', 'Egy dokumentumfilmes stílusban készült sorozat, amely a Dunder Mifflin irodai életét mutatja be.'),
+  ('Stranger Things', '2016-07-15', 'Sci-Fi', 'Winona Ryder, David Harbour, Finn Wolfhard', 'Egy kisvárosban eltűnik egy fiú, és közben furcsa események kezdenek történni a városban.');
