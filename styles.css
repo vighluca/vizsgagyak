@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-image: url('cover.jpg');
+    background-size: cover;
+    opacity: 1.0;
+}
+
+.header {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 200px;
+}
+
+.navbar {
+    background-color: #000000a4;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #000000;
+    color: rgb(255, 0, 0);
+}
+
+
+.navbar a.active {
+    background-color: #000000;
+}
+
+
+.logo {
+    max-width: 90px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000c9;
+    color: white;
+}
+
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    background-color: rgba(50, 50, 50, 0.7);
+    margin: 20px auto; 
+}
+
+table th, table td {
+    padding: 12px; 
+    text-align: left; 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+}
+
+table th {
+    background-color: #333; 
+    color: white; 
+}
+
+table tr:nth-child(even) {
+    background-color: rgba(100, 100, 100, 0.3); 
+}
+
+table tr:hover {
+    background-color: rgba(150, 150, 150, 0.3); 
+}
